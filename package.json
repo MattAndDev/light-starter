@@ -1,0 +1,21 @@
+{
+  "name": "light-starter",
+  "version": "0.1.0",
+  "description": "A super lightweight boilerplate for the web",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build index.html",
+    "lint": "./node_modules/.bin/standard",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matteo Maronati <me@mattinthe.net>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
